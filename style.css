@@ -140,3 +140,40 @@ body{
         height: 150px;
         /* margin-left: auto; */
     }
+
+    .linkWrapper{
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .icon{
+        width:30px ;
+        height:30px ;
+        margin-right: 10px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .githubIcon{
+        background-image: url("./assets/images/github.png");
+    }
+
+    .linedinIcon{
+        background-image: url("./assets/images/inkedIn.png");
+        border-radius: 50%;
+    }
+
+    .phoneIcon{
+
+        background-image: url("./assets/images/phoneicon.png");
+    }
+
+    .contactLink{
+        display: block;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    
